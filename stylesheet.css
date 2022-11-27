@@ -50,6 +50,14 @@ h1{
     align-self: flex-start;
 }
 
+h3{
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    align-self: flex-start;
+}
+
 a{
     text-decoration: none;
 }
@@ -95,6 +103,15 @@ a{
     margin-right: 2%;
 }
 
+.text-box-desc{
+    color: whitesmoke;
+    font-size: larger;
+    text-align: left;
+    padding-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .text-box-sub{
     color: whitesmoke;
     font-size: 30px;
@@ -115,8 +132,8 @@ a{
 .nav-element{
     color: whitesmoke;
     font-size: large;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     width: fit-content;
     height: 100%;
     white-space: nowrap;
@@ -130,6 +147,11 @@ a{
 .text-container{
     display: flex;
     flex-direction: column;
+}
+
+.step-containter{
+    border: 2px solid white;
+    margin: 2%;
 }
 
 .image-background-one{
