@@ -62,6 +62,10 @@ a{
     text-decoration: none;
 }
 
+video{
+    padding: 2%;
+}
+
 .header-text{
     color: whitesmoke;
     font-size: large;
@@ -232,4 +236,13 @@ a{
 
 .profile-image{
     max-width: 80%;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 90%;
 }
